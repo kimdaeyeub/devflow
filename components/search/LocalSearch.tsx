@@ -30,7 +30,6 @@ const LocalSearch = ({ route, imgSrc, placeholder, otherClasses }: Props) => {
           key: "query",
           value: searchQuery,
         });
-        console.log(newUrl);
 
         router.push(newUrl, { scroll: false });
       } else {
